@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const menu=require('./../models/menu');
+const menu =require('./../models/menu');
 
 //post method to add a menu item
 router.post('./',async(req,res)=>{
