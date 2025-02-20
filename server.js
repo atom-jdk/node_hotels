@@ -15,7 +15,7 @@ app.get('/',function(req,res){ //menu card
 //import the router files 
 const personRoutes=require('./routes/personRoutes');
 console.log('loading menuRoutes');
-const menuRoutes = require("./routes/menuRoutes"); // Ensure exact match
+//const menuRoutes = require("./routes/menuRoutes"); // Ensure exact match
 console.log("menuRoutes loaded successfully");
 
 
